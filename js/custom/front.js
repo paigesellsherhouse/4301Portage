@@ -158,6 +158,7 @@ function ready() {
 	}
 
 	// Add bookmarks
+	/*
 	if (jQuery('#tabsFavorite').length > 0) {
 		jQuery('.addBookmark').on("click", function(e) {
 			"use strict";
@@ -220,9 +221,10 @@ function ready() {
 			}
 		}).disableSelection();
 	}
-
+	*/
 
 	/* Add scroll to top button*/
+	/*
 	var upToScroll  ='<div class="upToScroll">';
 	upToScroll  +=	'<a href="#" class="addBookmark icon-star" title="Add the current page into bookmarks"></a>';
 	upToScroll  +=	'<a href="#" class="scrollToTop icon-up-open" title="Back to top"></a>';
@@ -238,7 +240,7 @@ function ready() {
 		e.preventDefault();
 		return false;
 	});
-
+	*/
 
 	// Decorate nested lists in widgets and sidemenu
 	jQuery('.widgetWrap ul > li,.sidemenu_area ul > li,.panelmenu_area ul > li,.widgetTop ul > li').each(function () {
