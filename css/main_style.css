@@ -734,7 +734,7 @@ section:not(.no_padding_container) > [class*="container"] {padding-top: 80px;pad
 .theme_accent_2_bgc .purchase_title {color: #fff;}
 .light_section .purchase_title {color: #322223;}
 
-.image_bg_1 .sc_title,.image_bg_1 .sc_highlight {color: #fff;}
+.image_bg_1 .sc_title,.image_bg_1 .sc_highlight {color: #ffffff;}
 
 
 
@@ -4834,7 +4834,7 @@ table.colorPickerTable th { padding: 0 !important; }
 	   -moz-background-size: 100% auto;
 }
 
-.image_bg_1 {background-image:url(../images/bg/1859x1314.png); background-size: cover;}
+.image_bg_1 {background-color: lightgray; background-size: cover;}
 .image_bg_2 {background-image:url(../images/bg/2000x900.png); background-size: cover;}
 .image_bg_3 {background-image:url(../images/bg/2000x1331.png); background-size: cover; overflow: hidden; background-position: center center;}
 .image_bg_4 {background-image:url(../images/bg/2000x1334.png); background-size: cover; overflow: hidden; background-position: center center;}
