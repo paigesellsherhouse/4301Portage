@@ -2307,6 +2307,14 @@ body.fullscreen .portfolioWrap { padding:80px 0 20px 0 ;}
 
 .sc_blogger.portfolioWrap, .sc_blogger.masonryWrap, .sc_blogger > div.portfolioWrap { padding: 0 !important; }
 
+.rotate90 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
 .portfolio { margin:0 0 30px 0; padding:0 0 20px 0; min-height:287px; overflow:visible !important;}
 .portfolio:after{ content:''; clear:both; height:0; display:block;}
 .isotope .isotopeElement.isotopeElementShow,
